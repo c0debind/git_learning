@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    /* height: 1000px; */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container .div0{
+    background: rgb(255, 204, 0);
+    box-shadow: 0px 0px 10px gray;
+    padding: 20px;
+    margin-top: 35px;
+}
+
+.container .div0 .div1{
+    text-align: center;
+}
+
+.container .div0 .div1 h3{
+    color: red;
+}
+
+.container .div0 .div2{
+    margin-top: 25px;
+    font-size: 0.6rem;
+    font-weight: lighter;
+    line-height: 1.2rem;
+}
